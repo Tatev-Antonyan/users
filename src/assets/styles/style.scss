@@ -1,0 +1,135 @@
+.landing_title {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 8%;
+    border: 8px dashed darkslateblue;
+    line-height: 400px;
+    margin-inline: 150px;
+    color: darkslateblue;
+
+}
+.landing_btn {
+    position: absolute;
+    right: 11%;
+    top: 5%;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    color: white;
+    background-color: darkslateblue;
+    border: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover{
+        background-color: white;
+        border: 2px solid darkslateblue;
+        color: darkslateblue;
+        scale: 1.1;
+
+    }
+}
+.login_container {
+    border: 5px dashed darkslateblue;
+    width: 30%;
+    margin: 15% auto;
+    text-align: center;
+    h1 {
+        font-size: 50px;
+        color: darkslateblue;
+    }
+    input {
+        display: block;
+        margin-inline: auto;
+        margin-top: 20px;
+        width: 65%;
+        height: 20px;
+    }
+    button {
+        margin: 25px 0;
+        color: white;
+        background-color: darkslateblue;
+        border: transparent;
+        width: 25%;
+        height: 25px;
+        cursor: pointer;
+        &:hover{
+            background-color: white;
+            border: 2px solid darkslateblue;
+            color: darkslateblue;
+            scale: 1.1;
+    
+        }
+        
+    }
+}
+
+.input_container {
+    text-align: center;
+    input{
+        display: block;
+        margin-inline: auto;
+        margin-top: 20px;
+        width: 65%;
+        height: 20px;
+    }
+    button {
+        margin: 25px 0;
+        color: white;
+        background-color: darkslateblue;
+        border: transparent;
+        width: 25%;
+        height: 25px;
+        cursor: pointer;
+        &:hover {
+            background-color: white;
+            border: 2px solid darkslateblue;
+            color: darkslateblue;
+            scale: 1.1;
+        }
+    }
+}
+
+
+table  {
+    width: 90%;
+    border: 1px solid  rgb(211, 208, 208);
+    margin-inline: auto;
+button {
+    background-color: transparent;
+    border: transparent;
+    font-size: 20px;
+    color: red;
+    font-weight: 700;
+    cursor: pointer;
+    &:hover{
+        scale: 1.2;
+        color: rgb(216, 3, 3);
+    }
+    &:active{
+        scale: 0.9;
+        color: red;
+    }
+}
+.remove_btn{
+    width: 40px;
+}
+
+    th, td {
+        width: 180px;
+        height: 35px;
+        text-align: center;
+        border-radius: 15px;
+    }
+   
+}
+.users_header {
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.notfoundPage {
+    display: block;
+    text-align: center;
+    margin: 15% 0;
+}
